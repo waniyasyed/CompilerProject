@@ -598,15 +598,6 @@ This project provided hands-on experience with:
 
 ---
 
-## References
-
-- Aho, Sethi, Ullman - "Compilers: Principles, Techniques, and Tools" (Dragon Book)
-- Cooper & Torczon - "Engineering a Compiler"
-- Appel - "Modern Compiler Implementation"
-- Python Documentation - https://docs.python.org/
-- Streamlit Documentation - https://docs.streamlit.io/
-
----
 
 ## License
 
