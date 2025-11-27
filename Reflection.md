@@ -17,13 +17,13 @@ Building a recursive descent parser showed us how grammar rules come alive as co
 This phase surprised us. Managing symbol tables and ensuring variables were declared before use seemed easy on paper, but implementing proper scope and good error messages took careful thinking. We learned that user friendly errors are a huge part of what makes a language feel polished.
 
 **Intermediate Code Generation**  
-Connecting the AST to low‑level three address code helped us appreciate why this representation is so widely used. Handling jumps, labels, and control flow gave us a new perspective on how high‑level constructs translate into machine‑friendly steps.
+Connecting the AST to low level three address code helped us appreciate why this representation is so widely used. Handling jumps, labels, and control flow gave us a new perspective on how high level constructs translate into machine friendly steps.
 
 **Optimization**  
 Even simple optimizations like constant folding showed us how much unnecessary work a program can contain. While we didn’t go deep into advanced optimizations, this stage helped us understand the balance between compiler complexity and runtime performance.
 
 **Code Generation / Interpretation**  
-Implementing an interpreter for our IR taught us how languages manage runtime state. It also showed us the difference between interpreting and fully compiling code—both in design and performance.
+Implementing an interpreter for our IR taught us how languages manage runtime state. It also showed us the difference between interpreting and fully compiling code, both in design and performance.
 
 ## Design Challenges and How We Solved Them
 
