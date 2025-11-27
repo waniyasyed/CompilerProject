@@ -3,21 +3,21 @@
 
 ## What We Learned
 
-Working on the MEL Compiler project was one of the most eye‑opening experiences for our team. Concepts that once felt abstract—like parsing, lexical rules, and intermediate code, became real the moment we tried to implement them ourselves. Each phase of the compiler taught us something new, not just about compilers but about how careful, structured thinking leads to real systems.
+Working on the MEL Compiler project was one of the most eye‑opening experiences for our team. Concepts that once felt abstract. like parsing, lexical rules, and intermediate code, became real the moment we tried to implement them ourselves. Each phase of the compiler taught us something new, not just about compilers but about how careful, structured thinking leads to real systems.
 
 ### Technical Growth
 
 **Lexical Analysis**  
-We realized very quickly that tokenizing source code isn’t as simple as it looks. Multi‑character operators like <= and == broke our lexer until we learned to check patterns in the right order. Handling tricky cases like string literals and keyword–identifier confusion taught us how important precision is at this stage.
+We realized very quickly that tokenizing source code isn’t as simple as it looks. Multi‑character operators like <= and == broke our lexer until we learned to check patterns in the right order. Handling tricky cases like string literals and keyword identifier confusion taught us how important precision is at this stage.
 
 **Syntax Analysis**  
-Building a recursive‑descent parser showed us how grammar rules come alive as code. Issues with operator precedence and associativity pushed us to understand grammars more deeply. When our parse tree didn’t behave the way we expected, it highlighted how even small ambiguities in a grammar can cause big headaches.
+Building a recursive descent parser showed us how grammar rules come alive as code. Issues with operator precedence and associativity pushed us to understand grammars more deeply. When our parse tree didn’t behave the way we expected, it highlighted how even small ambiguities in a grammar can cause big headaches.
 
 **Semantic Analysis**  
-This phase surprised us. Managing symbol tables and ensuring variables were declared before use seemed easy on paper, but implementing proper scope and good error messages took careful thinking. We learned that user‑friendly errors are a huge part of what makes a language feel polished.
+This phase surprised us. Managing symbol tables and ensuring variables were declared before use seemed easy on paper, but implementing proper scope and good error messages took careful thinking. We learned that user friendly errors are a huge part of what makes a language feel polished.
 
 **Intermediate Code Generation**  
-Connecting the AST to low‑level three‑address code helped us appreciate why this representation is so widely used. Handling jumps, labels, and control flow gave us a new perspective on how high‑level constructs translate into machine‑friendly steps.
+Connecting the AST to low‑level three address code helped us appreciate why this representation is so widely used. Handling jumps, labels, and control flow gave us a new perspective on how high‑level constructs translate into machine‑friendly steps.
 
 **Optimization**  
 Even simple optimizations like constant folding showed us how much unnecessary work a program can contain. While we didn’t go deep into advanced optimizations, this stage helped us understand the balance between compiler complexity and runtime performance.
