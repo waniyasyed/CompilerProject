@@ -341,16 +341,15 @@ mel-compiler/
 │
 ├── README.md               # This file
 │
-├── Handwritten_Documentation.md  # Guide for handwritten artifacts
 │
-├── test_cases/             # Test programs
+├── test_cases/             # Test programs which are in the code
 │   ├── fibonacci.mel
 │   ├── factorial.mel
 │   ├── sum.mel
 │   ├── power.mel
 │   └── even_odd.mel
 │
-├── handwritten_artifacts/  # Scanned handwritten work
+├── handwritten_artifacts/  
 │   ├── lexical_analysis.pdf
 │   ├── syntax_analysis.pdf
 │   ├── semantic_analysis.pdf
@@ -358,10 +357,7 @@ mel-compiler/
 │   ├── optimization.pdf
 │   └── execution_trace.pdf
 │
-└── docs/                   # Additional documentation
-    ├── language_spec.pdf
-    ├── design_decisions.md
-    └── reflection.md
+└──  reflection.md
 ```
 
 ---
@@ -481,40 +477,17 @@ Odd:
 - [x] Optimization examples
 - [x] Transition tables
 
-### 3. Documentation ✅
+### 3. Documentation 
 - [x] Language specification (BNF grammar)
 - [x] README with usage instructions
 - [x] Design decisions document
 - [x] Reflection (1 page)
 
-### 4. Demonstration ✅
+### 4. Demonstration 
 - [x] 3+ unique test cases
 - [x] Working compiler execution
 - [x] All phases demonstrated
 - [x] Interactive web interface
-
----
-
-## Key Features
-
-### ✨ Highlights
-
-1. **Complete 6-Phase Implementation**: All phases from lexical to execution
-2. **Interactive Web Interface**: User-friendly Streamlit application
-3. **Real-time Compilation**: See results immediately
-4. **Detailed Phase Outputs**: View tokens, AST, symbols, TAC, and optimized code
-5. **Multiple Examples**: Pre-loaded test cases for quick testing
-6. **Error Handling**: Clear error messages for debugging
-7. **Visual Representations**: Tables and formatted outputs for each phase
-
-### 🎯 Technical Achievements
-
-- Recursive descent parser
-- Symbol table with scope management
-- Three-address code generation
-- Constant folding optimization
-- AST-based interpretation
-- Comprehensive error handling
 
 ---
 
@@ -556,48 +529,6 @@ Through this project, we learned:
 6. **Integration**: Combining all phases into a working compiler
 
 ---
-
-## Future Improvements
-
-If we had more time, we would add:
-
-1. **Functions**: Function declarations and calls
-2. **Arrays**: Array support with indexing
-3. **Advanced Types**: Boolean, float, string operations
-4. **More Optimizations**: Loop unrolling, strength reduction
-5. **Native Code**: Generate actual machine code
-6. **Debugger**: Step-through debugging capability
-7. **IDE Integration**: VS Code extension
-8. **More Control Flow**: For loops, break/continue
-
----
-
-## Reflection
-
-### What We Learned
-
-This project provided hands-on experience with:
-- The complexity of language design
-- Importance of clear grammar specification
-- Challenges in error handling
-- Trade-offs between features and complexity
-
-### Challenges Faced
-
-1. **Parsing Ambiguity**: Resolved through operator precedence
-2. **Scope Management**: Implemented proper symbol table structure
-3. **Optimization**: Limited to basic techniques due to time
-4. **Testing**: Created comprehensive test cases
-
-### What We Would Improve
-
-- More comprehensive error messages
-- Support for more data types
-- Advanced optimization techniques
-- Better debugging tools
-
----
-
 
 ## License
 
